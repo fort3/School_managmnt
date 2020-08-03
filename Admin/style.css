@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;
+  padding:0;
+}
+
+#container{border:1px /*solid #095*/;
+		   width:90%;
+		   margin:5px auto;
+}
+
+#header, #nav, #side, #content, #footer{border:1px/* solid #09f*/;
+										margin:5px;
+}
+#header, #footer{width:95%;
+				 height:100px;
+}
+
+#nav{/*width:95%;*/
+	 height:50px;
+	 background-color:#09f;
+   border-bottom: 2px solid black;
+   border-right: 2px solid black;
+}
+#nav a{color:black;
+	   font-family:Tahoma, Geneva, sans-serif;
+	   display:inline-block;
+	   padding:14px 25px;
+	   text-decoration:none;
+	   letter-spacing:2px;
+	   
+	   
+}
+
+#nav a:hover{color:#09f;
+			 background-color:#fff;
+			 text-decoration:underline;
+}
+
+
+#side{width:30%;
+	  height:400px;
+}
+
+#side1{width:100%;
+	   height:200px;
+	   outline:1px /*solid #09f*/;
+}
+
+#side1 ul{list-style-type:none;
+}
+
+#side1 ul li{border-bottom:1px /*solid #09f*/;
+			list-style-type:none;
+}
+
+#side1 ul li a{color:#09c;
+			  font-family:Tahoma, Geneva, sans-serif;
+			  letter-spacing:2px;
+			  display:block;
+			  padding:10px 25px;
+			  text-decoration:none;
+			  
+}
+
+#side1 ul li a:hover{color:#fff;
+					 background-color:#09c;
+					 text-decoration:underline;
+}
+#content{width:64%;
+		 /*height:500px;*/
+}
+
+#side, #content{float:left;
+}
+
+#c1,#c2{/*border:1px solid #09f;*/
+		 width:148%;
+		 margin:5px auto;
+		 /*height:240px;*/
+}
+/*#c1{height:200px}*/
+#c1 h2{color:red;
+	   font-family:"Arial Black", Gadget, sans-serif;
+	   letter-spacing:2px;
+	   padding:10px;
+}
+
+#content .spec{border:1px solid #09f;
+			   width:98%;
+			   margin:5px auto;
+			   height:250px
+}
+
+#content .spec .image{float:left}
+#content .spec .details{outline:1px solid #09f;
+						float:left;
+}
+
+#content .spec .image{width:40%}
+
+#content .spec .details{width:55%}
+#content .spec .details{
+						font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+						text-decoration:none;
+						
+}
+#content .spec .details p{font-family:"Comic Sans MS", cursive;
+						  font-size:20px;
+						  
+}
+#content .spec .details ul{list-style-type:none;}
+#footer{clear:both
+}
+
+
