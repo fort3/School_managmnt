@@ -1,0 +1,11 @@
+{
+    "name": "school/management",
+    "description": "university management system",
+    "authors": [
+        {
+            "name": "fort3",
+            "email": "okonfortunesam@gmail.com"
+        }
+    ],
+    "require": {}
+}
